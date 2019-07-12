@@ -1,9 +1,9 @@
 <div class="card-wrapper">
   <div class="restaurant-image">
-      <img [src]= "restaurant.url"/>
+      <img [src]= "restaurant.thumb"/>
   </div>
-  <div class="restaurant-description">{{test}}
+  <div class="restaurant-description">
       <div class="restaurant-name">{{restaurant.name}}</div>
-      <div class="restaurant-locality">{{restaurant.locality}}</div>
+      <div class="restaurant-locality">{{restaurant.location.locality}}</div>
   </div>
 </div>
